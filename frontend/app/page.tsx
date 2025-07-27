@@ -32,7 +32,7 @@ export default function Dashboard() {
 
   return (
     <div className="min-h-screen bg-gray-50 p-6 space-y-6">
-      <h1 className="text-3xl font-bold text-gray-800">📊 Laminator Dashboard</h1>
+      <h1 className="text-3xl font-bold text-gray-800">📊 IoT Dashboard</h1>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {topics.map((topic) => (
           <div key={topic} className="bg-white rounded-2xl shadow p-4 border border-gray-200">
